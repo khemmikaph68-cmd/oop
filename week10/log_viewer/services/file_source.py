@@ -7,4 +7,4 @@ class FileLogSource(ILogSource):
 
     def get_logs(self) -> list[str]:
         with open(self.file_path, 'r') as file:
-            return file.read().split('\n')
+            return file.read().split('\n')oop
